@@ -1,0 +1,63 @@
+.form {
+  margin-top: 150px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-custom {
+  background-color :rgb(101, 105, 58);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search-input {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.cart-item {
+  padding: 20px;
+  background-color: rgb(182, 157, 157);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.filter-box {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.product-card:hover {
+    border : 1px solid blue;
+    cursor : pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.single-order {
+  border: 1px solid black;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: beige;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.order {
+  text-align: center;
+}
+
+.order-total-price {
+  text-align: right;
+  width: 100%;
+}
